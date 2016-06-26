@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: sg-registry-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: '{cipher}f39674c27a2108b596e74ed6c32ca265fd246c4a4d647bca437e79ed7918d688'#sanket
+      password: '{cipher}9b8cd58e814dcdf861452daaa0d9d3260ef609b1082ff2520850a4c46eb83962'#password 
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  resources: 
+    chain:
+      enabled: true
+      
+encrypt:
+  key: ba9c401d-0e84-4cb7-93f1-6804a6abcfc9  
+      
